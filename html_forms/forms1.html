@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>forms</title>
+    <style>
+        body{
+            margin-top: 150px;
+            display: flex;
+            justify-content: center;
+            color: brown;
+        }
+        fieldset{
+            width: fit-content;
+            padding: 25px;
+            color: blue;
+
+        }
+        legend{
+            background: repeating-radial-gradient(red,blue);
+            color: white;
+            border: 1px solid black;
+            padding: 10px;
+            border-top-right-radius: 75px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form>
+   <fieldset>
+    <legend>REGISTRATION</legend>
+        <table>
+            <tr>
+                <td><label for="name">USER-NAME</label></td>
+                <td><input type="text" placeholder="enter the name" id="name"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="PASSWORD">PASSWORD</label></td>
+                <td><input type="password" id="PASSWORD"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="">LANGUAGE:</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value="">...SELECT...</option>
+                        
+                        <option value="">BENGALI</option>
+                        
+                        <option value="">ODIA</option>
+                        
+                        <option value="">TAMIL</option>
+                         
+                        <option value="">URDU</option>
+                        
+                        <option value="">HINDI</option>
+                        
+                        <option value="">TELEGU</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="click me"></td>
+                    
+                    <td><input type="submit" value="submit"></td>
+                    
+                   <td> <input type="reset" value="reset"></td>
+            </tr>
+        </table>
+   </fieldset> 
+    </form>
+    
+</body>
+</html>

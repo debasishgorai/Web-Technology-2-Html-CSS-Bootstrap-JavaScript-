@@ -1,0 +1,20 @@
+form{
+    position: relative;
+    left: 400px;
+    top: 350px;
+}
+fieldset{
+    background-image: url(https://static.toiimg.com/photo/84446305.cms);
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-size: 370px;
+color: blue;}
+input{
+    margin: 15px;
+}
+legend{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
